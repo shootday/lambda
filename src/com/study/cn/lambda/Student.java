@@ -6,7 +6,7 @@ package com.study.cn.lambda;
  * @Author: lzx
  * @Description:
  */
-public class Student {
+public class Student  {
 
     private String name;
 
