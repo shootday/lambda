@@ -1,5 +1,7 @@
 package com.study.cn.whylamdba.why;
 
+import com.study.cn.lambda.Student;
+
 import java.util.ArrayList;
 
 /**
