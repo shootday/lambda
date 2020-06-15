@@ -170,6 +170,29 @@ public class StreamDdemo {
         // System.out.println(Stream.of(str.split(",")).mapToInt(Integer::valueOf).sum());
 
         // System.out.println(Stream.of(str.split(",")).map(Integer::valueOf).mapToInt(x -> x).sum());
+
+        //创建一组自定义对象
+
+        String p = "java,scala,python";
+
+        //  Stream.of(p.split(",")).map(x -> new Persion(x)).forEach(System.out::println);
+        // List<Persion> collect = Stream.of(p.split(",")).map(x -> new Persion(x)).collect(Collectors.toList());
+
+        // Stream.of(p.split(",")).map(Persion::new).forEach(System.out::println);
+
+       // Stream.of(p.split(",")).map(x -> new Persion(x)).forEach(System.out::println);
+       // Stream.of(p.split(",")).map(Persion::bulid).forEach(System.out::println);
+
+
+        String str1 = "11,22,33,44,55";
+        //将string中的每一个数值打印并且求和
+       // System.out.println(Stream.of(str1.split(",")).peek(System.out::println).mapToInt(Integer::valueOf).sum());
+
+
+       // System.out.println(list2.stream().allMatch(x -> x >= 0));
+
+
+
     }
 
 }
