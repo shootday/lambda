@@ -47,6 +47,7 @@ public class Test {
 
         Callable c2=()->"ddds";
         System.out.println(c2.call());
+        System.out.println("nihaohahah");
 
 
     }
